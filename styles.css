@@ -1,0 +1,87 @@
+html {
+  scroll-behavior: smooth;
+}
+.custom-header {
+  height: 675px;
+}
+.bg-image {
+  background-image: url(./assets/img/topo.jpg);
+  height: 644px;
+}
+.logo{
+  background: url(./assets/img/20190325141337_Logos_AGRICULTURE42.svg) no-repeat 0 0;
+  height: 80px;
+}
+.btn-banner {
+  margin-top: -80px;
+  color: #0056b3;
+  background-color: #FAD316;
+}
+.text-blue{
+  color: #00549B;
+}
+
+.btn-ok{
+  background: #005499;
+  padding: 8px 43px 11px;
+  border-radius: 15px;
+  color: #ffff;
+}
+@media screen and (max-width: 768px) {
+  .logo {
+    text-align: center !important;
+  }
+}
+.bg-custom {
+  background-color: #8d8d8d;
+  padding-top: 1px;
+}
+
+.bg-custom-2{
+  background: url(./assets/img/Grupo-13.jpg);
+}
+.bg-custom-3{
+  background: url(./assets/img/Retângulo\ 67.png);
+  height: 20vh;
+  color: #fff;
+}
+.text-maquinas{
+  color: #00549B;;
+}
+.field-height{
+  height: 148px;
+}
+
+.texto{
+  padding-bottom: 45px;
+}
+#form label.error {
+  background: transparent;
+  color: red;
+  font-style: italic;
+}
+
+.privacidade {
+  font-size: 1.075rem;
+  cursor: pointer;
+}
+.hide {
+  display: none !important;
+}
+
+footer .footer-custom {
+  margin-bottom: 40px;
+  background-color: #0D3353;
+  height: 160px;
+}
+
+footer #footer {
+  height: 40px;
+  background-color: #015BA5;
+}
+
+@media (max-width: 768px) {
+  footer #footer {
+    height: 60px;
+  }
+}
